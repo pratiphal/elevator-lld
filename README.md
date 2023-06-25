@@ -20,9 +20,11 @@
 
 ## Explanation
 
-InternalDispatcher gets triggered by InternalButtons in ElevatorCar. 
+1. InternalDispatcher gets triggered by InternalButtons in ElevatorCar. 
 
-Elevator class contains a `move()` function which is triggered by dispatcher, and it runs a for-loop until it reaches the destination floor.
+2. ExternalDispatcher gets triggered by Floor `pressButton()` function
+
+3. Elevator class contains a `move()` function which is triggered by dispatcher, and it runs a for-loop until it reaches the destination floor.
 
 
 
